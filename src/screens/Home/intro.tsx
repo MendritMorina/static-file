@@ -1,9 +1,11 @@
+import pdfUrl from '../../assets/CV.pdf';
+
 const Intro = () => {
     const data = {
-        name:'',
-        description:'',
+        name:'Mendrit Morina',
+        description:'I build things for the web.',
         content:'',
-        pdfUrl:''
+        pdfUrl:pdfUrl
     }
 
     return (
